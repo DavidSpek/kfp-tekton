@@ -28,7 +28,7 @@ require (
 	github.com/prometheus/client_golang v1.8.0
 	github.com/robfig/cron v1.2.0
 	github.com/sirupsen/logrus v1.6.0
-	github.com/spf13/viper v1.7.0
+	github.com/spf13/viper v1.7.1
 	github.com/stretchr/testify v1.5.1
 	github.com/tektoncd/pipeline v0.20.1
 	golang.org/x/net v0.0.0-20201209123823-ac852fbbde11
