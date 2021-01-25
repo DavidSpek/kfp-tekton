@@ -1,4 +1,4 @@
-FROM golang:1.10-stretch as build
+FROM golang:1.14.14-stretch as build
 
 RUN mkdir -p /go/src/github.com/kubeflow && \
     cd /go/src/github.com/kubeflow && \
