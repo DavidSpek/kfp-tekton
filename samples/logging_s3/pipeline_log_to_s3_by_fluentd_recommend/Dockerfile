@@ -1,4 +1,4 @@
-FROM fluent/fluentd:v1.11-1
+FROM fluent/fluentd:v1.11-2
 MAINTAINER fenglixa <fenglixa@cn.ibm.com>
 
 USER root
