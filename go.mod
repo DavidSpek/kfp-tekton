@@ -34,7 +34,7 @@ require (
 	golang.org/x/net v0.0.0-20201209123823-ac852fbbde11
 	google.golang.org/api v0.36.0
 	google.golang.org/genproto v0.0.0-20201211151036-40ec1c210f7a
-	google.golang.org/grpc v1.34.0
+	google.golang.org/grpc v1.35.0
 	gopkg.in/yaml.v2 v2.3.0
 	k8s.io/api v0.18.12
 	k8s.io/apimachinery v0.18.12
