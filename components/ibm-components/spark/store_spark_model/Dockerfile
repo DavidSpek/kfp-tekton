@@ -1,4 +1,4 @@
-FROM aipipeline/pyspark:spark-2.1
+FROM aipipeline/pyspark:spark-2.3
 
 RUN pip install --upgrade pip
 RUN pip install --upgrade watson-machine-learning-client ibm-ai-openscale Minio --no-cache | tail -n 1
