@@ -4,7 +4,7 @@
 
 # 1. Build api server application
 # Use golang:1.13.1-stretch to keep GLIBC at 2.24 https://github.com/gotify/server/issues/225
-FROM golang:1.13.1-stretch as builder
+FROM golang:1.14.14-stretch as builder
 RUN apt-get update && apt-get install -y cmake clang musl-dev openssl
 
 WORKDIR /go/src/github.com/kubeflow/pipelines
@@ -47,7 +47,7 @@ RUN set -e; \
     done
 
 # 3. Start api web server
-FROM golang:1.13.0
+FROM golang:1.14.14-stretch
 
 ARG COMMIT_SHA=unknown
 ENV COMMIT_SHA=${COMMIT_SHA}
