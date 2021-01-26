@@ -5,7 +5,7 @@
   "dependencies": {
     "lodash": ">=4.17.19",
     "mocha": "^5.2.0",
-    "wait-port": "^0.2.2",
+    "wait-port": "^0.2.9",
     "wdio-junit-reporter": "^0.4.4",
     "wdio-mocha-framework": "^0.6.2",
     "wdio-selenium-standalone-service": "0.0.10",
