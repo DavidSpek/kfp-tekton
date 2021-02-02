@@ -3,15 +3,13 @@ module github.com/kubeflow/kfp-tekton/tekton-catalog/pipeline-loops
 go 1.13
 
 require (
-	github.com/docker/cli v0.0.0-20200303162255-7d407207c304 // indirect
-	github.com/google/go-cmp v0.5.2
+	github.com/google/go-cmp v0.5.3
 	github.com/hashicorp/go-multierror v1.1.0
 	github.com/tektoncd/pipeline v0.18.0
-	go.opencensus.io v0.22.4
+	go.opencensus.io v0.22.6
 	go.uber.org/zap v1.15.0
 	golang.org/x/tools v0.0.0-20200924205911-8a9a89368bd3 // indirect
 	gomodules.xyz/jsonpatch/v2 v2.1.0
-	gotest.tools/v3 v3.0.2 // indirect
 	k8s.io/api v0.18.8
 	k8s.io/apimachinery v0.19.0
 	k8s.io/client-go v11.0.1-0.20190805182717-6502b5e7b1b5+incompatible
