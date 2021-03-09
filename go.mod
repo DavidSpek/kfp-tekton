@@ -29,18 +29,18 @@ require (
 	github.com/robfig/cron v1.2.0
 	github.com/sirupsen/logrus v1.6.0
 	github.com/spf13/viper v1.7.0
-	github.com/stretchr/testify v1.5.1
+	github.com/stretchr/testify v1.6.1
 	github.com/tektoncd/pipeline v0.20.1
 	golang.org/x/net v0.0.0-20201209123823-ac852fbbde11
 	google.golang.org/api v0.36.0
 	google.golang.org/genproto v0.0.0-20201211151036-40ec1c210f7a
 	google.golang.org/grpc v1.34.0
 	gopkg.in/yaml.v2 v2.3.0
-	k8s.io/api v0.18.12
-	k8s.io/apimachinery v0.18.12
+	k8s.io/api v0.20.2
+	k8s.io/apimachinery v0.20.2
 	k8s.io/client-go v11.0.1-0.20190805182717-6502b5e7b1b5+incompatible
 	k8s.io/code-generator v0.18.12
-	sigs.k8s.io/controller-runtime v0.6.4
+	sigs.k8s.io/controller-runtime v0.8.3
 )
 
 replace (
