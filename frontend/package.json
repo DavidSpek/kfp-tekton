@@ -74,7 +74,7 @@
     "@types/js-yaml": "^3.12.3",
     "@types/lodash": ">=4.14.117",
     "@types/markdown-to-jsx": "^6.9.0",
-    "@types/node": "^10.17.11",
+    "@types/node": "^14.14.35",
     "@types/prettier": "^1.19.0",
     "@types/react": "^16.9.22",
     "@types/react-dom": "^16.9.5",
