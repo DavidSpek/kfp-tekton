@@ -1,4 +1,4 @@
-FROM node:12.14.1 as build
+FROM node:15.13.0 as build
 
 ARG COMMIT_HASH
 ENV COMMIT_HASH=${COMMIT_HASH}
@@ -27,7 +27,7 @@ RUN npm i -D license-checker
 RUN node gen_licenses . && node gen_licenses server && \
     cat dependency-licenses.txt >> server/dependency-licenses.txt
 
-FROM node:12.14.1-alpine
+FROM node:15.13.0
 
 COPY --from=build ./src/frontend/server /server
 COPY --from=build ./src/frontend/build /client
