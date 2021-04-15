@@ -10,7 +10,7 @@ COPY . .
 RUN GO111MODULE=on go build -o /bin/cache_server backend/src/cache/*.go
 RUN git clone https://github.com/hashicorp/golang-lru.git /kfp/cache/golang-lru/
 
-FROM alpine:3.8
+FROM alpine:3.13.5
 WORKDIR /bin
 
 COPY --from=builder /bin/cache_server /bin/cache_server

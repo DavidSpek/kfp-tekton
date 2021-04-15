@@ -12,7 +12,7 @@ RUN apk update && apk upgrade && \
 
 RUN GO111MODULE=on go build -o /bin/persistence_agent backend/src/agent/persistence/*.go
 
-FROM alpine:3.11
+FROM alpine:3.13.5
 WORKDIR /bin
 
 COPY --from=builder /bin/persistence_agent /bin/persistence_agent
