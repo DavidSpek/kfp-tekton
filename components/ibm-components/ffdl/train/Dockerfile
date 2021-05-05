@@ -1,4 +1,4 @@
-FROM python:3.6-slim
+FROM python:3.9.5-slim
 
 RUN pip install boto3 ruamel.yaml requests
 
