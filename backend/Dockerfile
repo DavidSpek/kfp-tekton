@@ -47,7 +47,7 @@ RUN set -e; \
     done
 
 # 3. Start api web server
-FROM golang:1.13.0
+FROM golang:1.16.4
 
 ARG COMMIT_SHA=unknown
 ENV COMMIT_SHA=${COMMIT_SHA}
