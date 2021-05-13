@@ -1,2 +1,2 @@
-kubernetes==10.0.1
+kubernetes==17.17.0
 kubeflow-katib==0.10.1
