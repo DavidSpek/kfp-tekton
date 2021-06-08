@@ -15,7 +15,7 @@ require (
 	github.com/go-sql-driver/mysql v1.5.0
 	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
 	github.com/golang/protobuf v1.4.3
-	github.com/google/go-cmp v0.5.4
+	github.com/google/go-cmp v0.5.5
 	github.com/google/uuid v1.1.2
 	github.com/gopherjs/gopherjs v0.0.0-20181103185306-d547d1d9531e // indirect
 	github.com/gorilla/mux v1.8.0
@@ -25,7 +25,7 @@ require (
 	github.com/minio/minio-go v6.0.14+incompatible
 	github.com/peterhellberg/duration v0.0.0-20191119133758-ec6baeebcd10
 	github.com/pkg/errors v0.9.1
-	github.com/prometheus/client_golang v1.8.0
+	github.com/prometheus/client_golang v1.11.0
 	github.com/robfig/cron v1.2.0
 	github.com/sirupsen/logrus v1.6.0
 	github.com/spf13/viper v1.7.0
