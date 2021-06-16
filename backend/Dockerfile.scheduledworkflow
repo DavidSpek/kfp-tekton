@@ -9,7 +9,7 @@ RUN apk update && apk upgrade && \
 
 RUN GO111MODULE=on go build -o /bin/controller backend/src/crd/controller/scheduledworkflow/*.go
 
-FROM alpine:3.11
+FROM alpine:3.14.0
 WORKDIR /bin
 
 COPY --from=builder /bin/controller /bin/controller
