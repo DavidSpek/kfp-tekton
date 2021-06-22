@@ -14,8 +14,8 @@ require (
 	github.com/go-openapi/validate v0.19.5
 	github.com/go-sql-driver/mysql v1.5.0
 	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
-	github.com/golang/protobuf v1.4.3
-	github.com/google/go-cmp v0.5.4
+	github.com/golang/protobuf v1.5.2
+	github.com/google/go-cmp v0.5.5
 	github.com/google/uuid v1.1.2
 	github.com/gopherjs/gopherjs v0.0.0-20181103185306-d547d1d9531e // indirect
 	github.com/gorilla/mux v1.8.0
@@ -25,22 +25,22 @@ require (
 	github.com/minio/minio-go v6.0.14+incompatible
 	github.com/peterhellberg/duration v0.0.0-20191119133758-ec6baeebcd10
 	github.com/pkg/errors v0.9.1
-	github.com/prometheus/client_golang v1.8.0
+	github.com/prometheus/client_golang v1.11.0
 	github.com/robfig/cron v1.2.0
 	github.com/sirupsen/logrus v1.6.0
 	github.com/spf13/viper v1.7.0
-	github.com/stretchr/testify v1.5.1
+	github.com/stretchr/testify v1.7.0
 	github.com/tektoncd/pipeline v0.20.1
-	golang.org/x/net v0.0.0-20201209123823-ac852fbbde11
+	golang.org/x/net v0.0.0-20210428140749-89ef3d95e781
 	google.golang.org/api v0.36.0
 	google.golang.org/genproto v0.0.0-20201211151036-40ec1c210f7a
 	google.golang.org/grpc v1.34.0
-	gopkg.in/yaml.v2 v2.3.0
-	k8s.io/api v0.18.12
-	k8s.io/apimachinery v0.18.12
+	gopkg.in/yaml.v2 v2.4.0
+	k8s.io/api v0.21.2
+	k8s.io/apimachinery v0.21.2
 	k8s.io/client-go v11.0.1-0.20190805182717-6502b5e7b1b5+incompatible
 	k8s.io/code-generator v0.18.12
-	sigs.k8s.io/controller-runtime v0.6.4
+	sigs.k8s.io/controller-runtime v0.9.1
 )
 
 replace (
