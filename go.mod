@@ -19,7 +19,7 @@ require (
 	github.com/google/uuid v1.1.2
 	github.com/gopherjs/gopherjs v0.0.0-20181103185306-d547d1d9531e // indirect
 	github.com/gorilla/mux v1.8.0
-	github.com/grpc-ecosystem/grpc-gateway v1.14.8
+	github.com/grpc-ecosystem/grpc-gateway v1.16.0
 	github.com/jinzhu/gorm v1.9.12
 	github.com/mattn/go-sqlite3 v2.0.1+incompatible
 	github.com/minio/minio-go v6.0.14+incompatible
@@ -34,7 +34,7 @@ require (
 	golang.org/x/net v0.0.0-20201209123823-ac852fbbde11
 	google.golang.org/api v0.36.0
 	google.golang.org/genproto v0.0.0-20201211151036-40ec1c210f7a
-	google.golang.org/grpc v1.34.0
+	google.golang.org/grpc v1.39.0
 	gopkg.in/yaml.v2 v2.3.0
 	k8s.io/api v0.18.12
 	k8s.io/apimachinery v0.18.12
